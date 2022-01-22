@@ -1,2 +1,2 @@
 12 12 13 0 /Users/danyarmarkin/PycharmProjects/videoPlayer/video3.mp4
-11 0 12 0 /Users/danyarmarkin/PycharmProjects/videoPlayer/video1.mp4
+11 0 23 30 /Users/danyarmarkin/PycharmProjects/videoPlayer/video1.mp4
