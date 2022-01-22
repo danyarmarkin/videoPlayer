@@ -1,7 +1,6 @@
 import cv2
 import datetime
 import tkinter
-from UI import interface
 
 
 def start():
@@ -56,6 +55,7 @@ def start():
     print("interface")
     cv2.destroyWindow("window")
     cv2.destroyAllWindows()
+    from UI import interface
     interface()
 
 

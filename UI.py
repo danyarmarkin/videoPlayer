@@ -126,7 +126,11 @@ def interface():
     save_button = tkinter.Button(root, text="Save", width=10, height=4, command=save)
     save_button.grid(row=0, column=1)
 
-    start_button = tkinter.Button(root, text="Start Video", width=10, height=4, fg='green', command=Main.start)
+    def start():
+        root.destroy()
+        Main.start()
+
+    start_button = tkinter.Button(root, text="Start Video", width=10, height=4, fg='green', command=start)
     start_button.grid(row=0, column=2)
 
     for i, task in enumerate(tasks):
