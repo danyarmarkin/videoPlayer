@@ -1,6 +1,7 @@
 import cv2
 import datetime
-from UI import *
+import tkinter
+from UI import interface
 
 
 def start():
@@ -20,6 +21,7 @@ def start():
             t = line.split()
             if len(t) != 5:
                 continue
+            from UI import Task
             task = Task(int(t[0]), int(t[1]), int(t[2]), int(t[3]), t[4])
             tasks.append(task)
         file.close()
